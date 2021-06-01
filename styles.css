@@ -1,0 +1,62 @@
+html, body{
+    margin:0;
+    padding:0;
+}
+header{
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    width: 880px;
+}
+nav{
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+    width: 880px;
+    margin: 0 auto;
+}
+.outercontainer{
+    width: 900px;
+    height: 600px;
+    /* margin-right: auto;
+    margin-left: auto; */
+    margin: 0 auto;
+}
+.left{
+    height: 600px;
+    width: 500px;
+    float: left;
+}
+section{
+    background-color: blue;
+    width: 500px;
+    height: 300px;
+    float: left;
+    text-align: center;
+}
+article{
+    background-color: purple;
+    width: 500px;
+    height: 300px;
+    float: left;
+    text-align:center;
+}
+aside{
+    height: 600px;
+    width: 400px;
+    float: left;
+    background-color: pink;
+    text-align: center;
+}
+.clearfloat{
+    clear: both;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 860px;
+    margin: 0 auto;
+    padding: 20px;
+}
